@@ -1,0 +1,29 @@
+# === 编译产物目录 ===
+Debug/*
+Release/*
+!Debug/*.ld
+!Release/*.ld
+
+# === 编译产物文件 ===
+*.o
+*.elf
+*.map
+*.bin
+*.hex
+*.lst
+*.d
+*.su
+*.crf
+*.dep
+
+# === IDE 个人设置 ===
+.settings/
+.metadata/
+*.launch
+
+# === STM32Cube 特定 ===
+*.mxproject
+
+# === 备份/临时 ===
+*.bak
+*~
